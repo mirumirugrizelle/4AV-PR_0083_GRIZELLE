@@ -211,25 +211,28 @@ h1,h2,h3,h4,h5,h6,figure,p {
 
 /*PROGRAMAS FIN*/
 
-/* ENLACES INICIO */
-#enlaces {
-    justify-content: space-around;
-}
+/* REDES SOCIALES INICIO */
 
-#enlaces h1 {
-    font-size: 1.2em;
-    color: #AA3521;
-}
 
-#enlaces h2 {
-    font-size: 0.9em;
-}
-/* ENLACES FIN*/
+/* REDES SOCIALES FIN */
 
+/* PIE INICIO */
 #pie {
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start; */
+    min-height: 150px;
+    margin-top: 50px;
 }
 
+#politicas {
+    text-align: center;
+    border-top: 3px double lightgray;
+    border-bottom: 3px double lightgray;
+    padding: 5px 0;
+    color: darkgray;
+}
+
+#politicas abbr {
+    cursor: help;
+    border-bottom: 1px dotted lightgray;
+}
+
+/* PIE FIN*/
